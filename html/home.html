@@ -17,7 +17,7 @@
   >
     <header>
       <nav
-        class="navbar navbar-expand-lg bg-dark border-body"
+        class="navbar navbar-expand-lg bg-black border-body"
         data-bs-theme="dark"
       >
         <div class="container-fluid">
@@ -49,7 +49,7 @@
                 <a class="nav-link active" href="#">TV Shows</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ovies</a>
+                <a class="nav-link" href="#">Movies</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Recently Added</a>
@@ -58,17 +58,50 @@
                 <a class="nav-link" href="#">My List</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Cerca posti da sogno"
-                aria-label="Search"
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-search"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
               />
-              <button class="btn btn-outline-danger" type="submit">
-                Cerca
+            </svg>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">KIDS</a>
+              </li>
+            </ul>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-bell-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901"
+              />
+            </svg>
+
+            <div class="dropdown ms-2">
+              <button
+                class="btn btn-dark dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img
+                  src="../assets/img/avatar.png"
+                  width="30px"
+                  height="30px"
+                />
               </button>
-            </form>
+            </div>
           </div>
         </div>
       </nav>
@@ -112,10 +145,10 @@
       </div>
     </header>
     <main class="flex-grow-1">
-      <section>
+      <section class="container-fluid my-5">
         <h3>Trending Now</h3>
         <div class="row g-1">
-          <div class="col-2">
+          <div class="col-6 col-md-4 col-lg-2">
             <div class="card border-0">
               <img
                 src="../assets/img/media/media0.webp"
@@ -124,7 +157,7 @@
               />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-6 col-md-4 col-lg-2">
             <div class="card border-0">
               <img
                 src="../assets/img/media/media1.jpg"
@@ -133,7 +166,7 @@
               />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-6 col-md-4 col-lg-2">
             <div class="card border-0">
               <img
                 src="../assets/img/media/media2.webp"
@@ -142,7 +175,7 @@
               />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-6 col-md-4 col-lg-2">
             <div class="card border-0">
               <img
                 src="../assets/img/media/media3.webp"
@@ -151,7 +184,7 @@
               />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-6 col-md-4 col-lg-2">
             <div class="card border-0">
               <img
                 src="../assets/img/media/media4.jpg"
@@ -160,7 +193,7 @@
               />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-6 col-md-4 col-lg-2">
             <div class="card border-0">
               <img
                 src="../assets/img/media/media5.webp"
@@ -171,10 +204,10 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="container-fluid my-5">
         <h3>Watch it Again</h3>
         <div class="row g-1">
-          <div class="col-2">
+          <div class="col-6 col-md-4 col-lg-2">
             <div class="card border-0">
               <img
                 src="../assets/img/media/media6.jpg"
@@ -183,7 +216,7 @@
               />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-6 col-md-4 col-lg-2">
             <div class="card border-0">
               <img
                 src="../assets/img/media/media7.webp"
@@ -192,7 +225,7 @@
               />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-6 col-md-4 col-lg-2">
             <div class="card border-0">
               <img
                 src="../assets/img/media/media8.webp"
@@ -201,7 +234,7 @@
               />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-6 col-md-4 col-lg-2">
             <div class="card border-0">
               <img
                 src="../assets/img/media/media9.jpg"
@@ -210,7 +243,7 @@
               />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-6 col-md-4 col-lg-2">
             <div class="card border-0">
               <img
                 src="../assets/img/media/media10.jpg"
@@ -219,7 +252,7 @@
               />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-6 col-md-4 col-lg-2">
             <div class="card border-0">
               <img
                 src="../assets/img/media/media11.jpg"
@@ -230,10 +263,10 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="container-fluid my-5">
         <h3>New Releases</h3>
         <div class="row g-1">
-          <div class="col-2">
+          <div class="col-6 col-md-4 col-lg-2">
             <div class="card border-0">
               <img
                 src="../assets/img/media/media11.jpg"
@@ -242,7 +275,7 @@
               />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-6 col-md-4 col-lg-2">
             <div class="card border-0">
               <img
                 src="../assets/img/media/media12.jpg"
@@ -251,7 +284,7 @@
               />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-6 col-md-4 col-lg-2">
             <div class="card border-0">
               <img
                 src="../assets/img/media/media13.jpg"
@@ -260,7 +293,7 @@
               />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-6 col-md-4 col-lg-2">
             <div class="card border-0">
               <img
                 src="../assets/img/media/media14.webp"
@@ -269,7 +302,7 @@
               />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-6 col-md-4 col-lg-2">
             <div class="card border-0">
               <img
                 src="../assets/img/media/media15.jpg"
@@ -278,7 +311,7 @@
               />
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-6 col-md-4 col-lg-2">
             <div class="card border-0">
               <img
                 src="../assets/img/media/media16.webp"
@@ -295,7 +328,11 @@
         <div class="mt-5 my-2">
           <ul class="nav">
             <li class="nav-item">
-              <a href="#" class="nav-link px-2 text-body-secondary">
+              <a
+                href="https://www.facebook.com/netflixitalia/?locale=it_IT"
+                class="nav-link px-2 text-body-secondary"
+                target="_blank"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="25"
@@ -312,7 +349,11 @@
             </li>
 
             <li class="nav-item">
-              <a href="#" class="nav-link px-2 text-body-secondary">
+              <a
+                href="https://www.instagram.com/netflixit/?hl=it"
+                class="nav-link px-2 text-body-secondary"
+                target="_blank"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="25"
@@ -328,7 +369,11 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link px-2 text-body-secondary">
+              <a
+                href="https://x.com/netflix?"
+                class="nav-link px-2 text-body-secondary"
+                target="_blank"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="25"
@@ -344,7 +389,11 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link px-2 text-body-secondary">
+              <a
+                href="https://www.youtube.com/@netflixitalia"
+                class="nav-link px-2 text-body-secondary"
+                target="_blank"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="25"
@@ -361,68 +410,64 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="container">
-        <div class="container">
+        <div class="container pb-4">
           <div class="row my-2">
-            <div class="col">
+            <div class="col-md-3 col-lg-3">
               <span>Audio and Subtitles</span>
             </div>
-            <div class="col">
+            <div class="col-md-3 col-lg-3">
               <span>Audio and Description</span>
             </div>
-            <div class="col">
+            <div class="col-md-3 col-lg-3">
               <span>Help Center</span>
             </div>
-            <div class="col">
+            <div class="col-md-3 col-lg-3">
               <span>Gift Cards</span>
             </div>
           </div>
           <div class="row my-2">
-            <div class="col">
+            <div class="col-md-3 col-lg-3">
               <span>Media Center</span>
             </div>
-            <div class="col">
+            <div class="col-md-3 col-lg-3">
               <span>Investor Relations</span>
             </div>
-            <div class="col">
+            <div class="col-md-3 col-lg-3">
               <span>Jobs</span>
             </div>
-            <div class="col">
+            <div class="col-md-3 col-lg-3">
               <span>Term of Use</span>
             </div>
           </div>
           <div class="row my-2">
-            <div class="col">
+            <div class="col-md-3 col-lg-3">
               <span>Privacy</span>
             </div>
-            <div class="col">
+            <div class="col-md-3 col-lg-3">
               <span>Legal Notices</span>
             </div>
-            <div class="col">
+            <div class="col-md-3 col-lg-3">
               <span>Cookie Preferences</span>
             </div>
-            <div class="col">
+            <div class="col-md-3 col-lg-3">
               <span>Corporate Information</span>
             </div>
           </div>
           <div class="row my-2">
-            <div class="col">
+            <div class="col-md-3 col-lg-3">
               <span>Contact Us</span>
             </div>
           </div>
-          <div class="row mt-4">
-            <div class="col">
+          <div class="row mt-4 mb-4">
+            <div class="col-md-3 col-lg-3">
               <button class="btn btn-dark border border-3 rounded-0">
                 Service Code
               </button>
             </div>
           </div>
-          <div class="row mt-4">
-            <div class="col">
-              <span>&copy; 1997-2019 Netflix, inc. (i-0d00fcda2tdf9c0de}</span>
-            </div>
-          </div>
+          <span class="mt-4"
+            >&copy; 1997-2019 Netflix, inc. (i-0d00fcda2tdf9c0de}</span
+          >
         </div>
       </section>
     </footer>
